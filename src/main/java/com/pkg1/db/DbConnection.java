@@ -23,7 +23,7 @@ public class DbConnection {
 			System.out.println("Cannot load driver");
 		}
 		try {
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/banking1","root","Ro$han1234");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/banking1","root","password");
 			
 		}catch(SQLException exob2) {
 			System.out.println("Cannot establish connection");
